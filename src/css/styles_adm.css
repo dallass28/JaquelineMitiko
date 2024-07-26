@@ -1,0 +1,209 @@
+body {
+    background: #fce2ff;
+    overflow-x: hidden;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: sans-serif;
+}
+
+table, th, td {
+    border: 1px solid #f6a2a2;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #f6a2a2;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.title_form {
+    font-family: sans-serif;
+    font-size: 18pt;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.content {
+    width: 100%;
+    padding: 32px 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.card_adm {
+    width: 55%;
+    padding: 32px;
+    background: #ffffff;
+    box-shadow: 0 0 10px #cbcbcb;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.summary_datas {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.indice {
+    font-family: sans-serif;
+    font-size: 12pt;
+}
+
+.ind_data {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 26pt;
+    color: #000000;
+}
+
+.total_summary {
+    border-top: 1px solid #000000;
+    padding-top: 8px;
+}
+
+.total_liq {
+    font-size: 36pt;
+}
+
+#cadastroForm {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.form-group {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.label_form {
+    font-family: sans-serif;
+    font-size: 11pt;
+    font-weight: bold;
+}
+
+.input_form {
+    height: 32px;
+    border: 1px solid #000000;
+    border-radius: 6px;
+    padding: 0 8px;
+}
+
+.btn-group {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+#save {
+    width: 100%;
+    height: 32px;
+    border: 1px solid;
+    border-radius: 6px;
+    font-family: sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    background: #f6a2a2;
+    
+    color: #000000;
+}
+
+#a_btn_exit {
+    width: 55%;
+}
+
+.btn_exit_adm {
+    width: 100%;
+    height: 32px;
+    
+    border-radius: 6px;
+    font-family: sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    background: #FFC7C7;
+    
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn_exit_adm:hover {
+    color: #fecdff;
+    background: #f6a2a2;
+    background-image: linear-gradient(90deg, #f6a2a2 0%, #f6a2a2 100%);
+    box-shadow: 0 0 16px #f09797;
+}
+.btn_excluir {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 6px 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+   
+}
+
+.btn_excluir:hover {
+    box-shadow: 0 0 16px #ff0000;
+}
+.card_valor_final{
+    text-align: center;
+}
+.card_valor_final h2 {
+    margin-bottom: 10%;
+}
+/* Adicione no seu arquivo CSS */
+.dentista-summary {
+    border: 1px solid #ddd; /* Borda sutil para destacar a seção */
+    border-radius: 8px; /* Bordas arredondadas */
+    padding: 16px; /* Espaçamento interno */
+    margin-bottom: 16px; /* Espaçamento inferior */
+    background-color: #f9f9f9; /* Fundo leve para destaque */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.dentista-summary .title_form {
+    margin-top: 0; /* Remove margem superior para o título */
+}
+
+.dentista-summary .indice {
+    font-size: 1rem; /* Tamanho da fonte para os textos */
+    color: #333; /* Cor do texto */
+}
+
+.dentista-summary .indice:last-of-type {
+    font-weight: bold; /* Destaca o total líquido com negrito */
+    color: #007bff; /* Cor azul para destacar o valor líquido */
+}

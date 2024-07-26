@@ -1,0 +1,136 @@
+body {
+    background-color: #fce2ff;
+}
+
+.content {
+    padding: 32px 64px;
+}
+
+.title {
+    font-family: sans-serif;
+    font-size: 18pt;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.sub_title {
+    font-family: sans-serif;
+    font-size: 12pt;
+    color: #000000;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: sans-serif;
+}
+
+table, th, td {
+    border: 1px solid #f6a2a2;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
+}
+
+th {
+    background-color: #f6a2a2;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+a {
+    text-decoration: none;
+}
+
+#title_btns {
+    width: 184px;
+}
+
+#cell_btns {
+    width: 184px;
+    display: flex;
+    flex-wrap: wrap; /* Allow buttons to wrap to the next line if they exceed the width */
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box; /* Ensure padding and border are included in the element's total width */
+}
+
+.btn {
+    width: 80px;
+    height: 32px;
+    border-radius: 6px;
+    border: 1px solid;
+    cursor: pointer;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box; /* Ensure padding and border are included in the element's total width */
+}
+
+.edit {
+    border-color: #2b62e2;
+    color: #2b62e2;
+}
+
+.edit:hover {
+    background: #2b62e2;
+    color: #ffffff;
+    box-shadow: 0 0 10px #2b62e2;
+}
+
+.exclude {
+    border-color: #ff004c;
+    color: #ff004c;
+}
+
+.exclude:hover {
+    background: #ff004c;
+    color: #ffffff;
+    box-shadow: 0 0 10px #ff004c;
+}
+.situ .sit{
+    border-color: #000000;
+    color: #000000;
+}
+.situ .sit:hover {
+    background: #000000;
+    color: #ffffff;
+    box-shadow: 0 0 10px #000000;
+}
+
+.logout {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.logout a {
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.logout a:hover {
+    text-decoration: underline;
+}
+
+.edit-form {
+    display: none;
+}
+
+.edit-form.active {
+    display: block;
+}
+
+.cell_form {
+    width: 256px;
+}
+
+.form_edit {
+    width: 100%;
+}

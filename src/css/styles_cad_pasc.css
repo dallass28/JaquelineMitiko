@@ -1,0 +1,114 @@
+.content {
+    width: 100%;
+    height: calc(100% - 64px);
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #fce2ff;
+}
+
+.form-container {
+    width: 55%;
+    padding: 32px;
+    background: #ffffff;
+    box-shadow: 0 0 10px #cbcbcb;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.title_form {
+    font-family: sans-serif;
+    font-size: 18pt;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+#cadastroForm {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.form-group {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.label_form {
+    font-family: sans-serif;
+    font-size: 11pt;
+    font-weight: bold;
+}
+
+.input_form {
+    height: 32px;
+    border: 1px solid #000000;
+    border-radius: 6px;
+    padding: 0 8px;
+}
+
+.btn-group {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+#save {
+    width: 100%;
+    height: 32px;
+    border: 1px solid;
+    border-radius: 6px;
+    font-family: sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    background: #FFC7C7;
+    border-color: #FFC7C7;
+    color: #ffffff;
+}
+
+.btn-group input {
+    width: 50%;
+}
+
+.btn_form {
+    height: 32px;
+    border: 1px solid;
+    border-radius: 6px;
+    font-family: sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.confirm {
+    background: #FFC7C7;
+    border-color: #FFC7C7;
+    color: #000000;
+}
+
+.confirm:hover {
+    box-shadow: 0 0 10px #FFC7C7;
+}
+
+.clear {
+    background: transparent;
+    border-color: #ff004c;
+    color: #ff004c;
+}
+
+.clear:hover {
+    background: #ff004c;
+    border-color: #ff004c;
+    box-shadow: 0 0 10px #ff004c;
+    color: #ffffff;
+}
